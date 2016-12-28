@@ -1,3 +1,4 @@
 theme_: jekyll-theme-cayman
 
+markdown: rdiscount
 future:true

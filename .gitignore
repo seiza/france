@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/macos,intellij+iml
 
+### Jekyll ###
+_site
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
