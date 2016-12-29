@@ -1,5 +1,5 @@
 ---
-title:
+title: Langue parlée dans les chancelleries
 tags: language
 rank:
 ---
