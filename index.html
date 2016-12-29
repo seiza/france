@@ -4,11 +4,32 @@ title: Top of the Rock
 ---
 
 <div id="home">
-    <h1>Blog Posts</h1>
+    <h1>{{ page.title }}</h1>
+    <p>
+        Malgré le dénigrement que la France peut subire, à commencer par ses propres citoyens, il me semble interessant,
+        surtout en ces temps de crise, de voir le verre à motié plein, plutôt qu'à moitié vide:
+        en quoi la France est un beau pays...
+        Se faisant, on se rendra qu'il est d'ailleurs plus qu'a moitié plein ;)
+    </p>
     <ul class="posts">
         {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo;
+        <li>
+            <!-- <span>{{ post.date | date_to_string }}</span> &raquo; -->
             <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+
+            <strong>
+            {% if post.rank %}- {{ post.rank }}e / {% endif %}
+            {{ post.panel }}
+            {% if post.year %} en {{ post.year }}{% endif %}
+            </strong>
+
+            [
+            {% for tag in post.tags %}
+            {{ tag }}
+            <!-- http://jekyll.tips/jekyll-casts/looping-in-liquid/ -->
+            {% if forloop.rindex > 1 %}&bull;{% endif %}
+            {% endfor %}
+            ]
         </li>
         {% endfor %}
     </ul>

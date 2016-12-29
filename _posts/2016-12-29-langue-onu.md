@@ -1,7 +1,12 @@
 ---
+layout: post
 title: Langue officielle à l'ONU
-tags: language
 rank:
+panel:
+year:
+source: 
+tags:
+ - language
 ---
 
 Langue officielle à l'ONU.

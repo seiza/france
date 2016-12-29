@@ -1,5 +1,6 @@
 ---
-title: Le plus de startup, 2ème
+layout: post
+title: Le plus de startup
 rank: 2
 panel: europe
 year: 2016
