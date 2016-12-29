@@ -1,3 +1,3 @@
 #https://jekyllrb.com/docs/configuration/#default-configuration
 
-baseurl: "/france" # does not include hostname
+baseurl: "/france" # does not include hostname # https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
