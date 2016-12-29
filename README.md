@@ -18,7 +18,7 @@
   * vin
   * fromages
 * géographie: 
-  * montagne / mer / fleuves
+  * montagnes (Mont Blanc) / mer / fleuves
   * soleil / hiver
   * DOM/TOM
 * patrimoine
