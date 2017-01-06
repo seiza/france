@@ -9,6 +9,8 @@ layout: default
         {% if page.year %} en {{ page.year }}{% endif %}
     </h2>
 
+    {% if page.source %}<p><b>Source:</b> <a href="{{page.source}}" target="_blank">{{page.source}}</a></p> {% endif %}
+
     {{ content }}
 
     <h3>Tags</h3>

@@ -30,3 +30,12 @@
   * paris
   * déclaration des droits de l'homme
 * connaissance, savoir
+
+## Technical
+
+Once `ruby` installed:
+
+```
+gem install jekyll
+jekyll serve -w
+```
