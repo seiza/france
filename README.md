@@ -14,9 +14,11 @@
   * airbus
   * telephonie (4G)
   * 3 constructeurs automobile
-* Gatronomie
+* gatronomie
   * vin
   * fromages
+* économie :
+  * http://piketty.blog.lemonde.fr/2017/01/05/de-la-productivite-en-france-en-allemagne-et-ailleurs/
 * géographie: 
   * montagnes (Mont Blanc) / mer / fleuves
   * soleil / hiver
